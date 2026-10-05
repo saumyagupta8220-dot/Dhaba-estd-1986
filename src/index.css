@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Marcellus&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Dirt&family=Special+Elite&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Our two fonts */
+  /* --font-dhaba: "Rubik Dirt", system-ui, sans-serif;
+  --font-pirata: "Pirata One", system-ui, sans-serif; */
+  --font-dhaba: "Marcellus", system-ui, sans-serif;
+  
+  /* Logo Colors */
+  --color-dhaba-blue: #1c58a3;  
+  --color-dhaba-red: #ea333b;   
+  --color-dhaba-yellow: #ffe600;
+  
+  /* Neutrals */
+  --color-dhaba-light: #fdfbf7; 
+  --color-dhaba-dark: #111827;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-dhaba-light);
+  color: var(--color-dhaba-dark);
+  /* Make Pirata One the default font for everything! */
+  font-family: var(--font-pirata);
+}
